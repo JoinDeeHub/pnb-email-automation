@@ -14,7 +14,10 @@ to_recipients = [
     "cpc@rbi.org.in",
     "customercare@pnbhousing.com",
     "gro.south@pnbhousing.com",
+    "gro.north@pnbhousing.com",
+    "gro.west@pnbhousing.com"
     "executivedirector@pnbhousing.com"
+
 ]
 
 cc_recipients = [
