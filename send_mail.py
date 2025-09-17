@@ -25,7 +25,7 @@ cc_recipients = [
 ]
 
 # Subject & Body
-subject = "Fwd: Request for Refund of EMI Payment Due to Delay in E-Katha Update"
+subject = "Request for Refund of EMI Payment Due to Delay in E-Katha Update"
 body = """
 Hi Sir/Madam,
 
