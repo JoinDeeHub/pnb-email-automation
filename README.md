@@ -6,13 +6,14 @@ The script is scheduled to run automatically every day at **11:11 AM IST** using
 ---
 
 ## 📂 Repository Structure
-.
+<pre class="overflow-visible!" data-start="2408" data-end="2713"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="sticky top-9"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs"></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre!"><span><span>
 ├── send_email.py # Python script to build & send the email
 ├── requirements.txt # Python dependencies
 ├── .github/
 │ └── workflows/
 │ └── email.yml # GitHub Actions workflow (schedules the email daily)
-└── README.md # Project documentation
+└── README.md # Project documentation </span></span></code></div></div></pre>
+
 
 ---
 
