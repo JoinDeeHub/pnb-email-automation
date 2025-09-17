@@ -88,6 +88,43 @@ python send_email.py
 - Loan Account No: **HOU/BLRS/0924/1308242**  
 
 ---
+---
+## 🖥️ Local Testing Setup (Optional)
+
+
+**If you want to run the script on your own machine before pushing:**
+
+Install dependencies:
+
+`pip install -r requirements.txt`
+
+
+**Add your email and password to your shell environment:**
+
+If you use Bash: open ~/.bashrc
+
+If you use Zsh: open ~/.zshrc
+
+**Add these lines:**
+
+`export EMAIL_ADDRESS="yourgmail@gmail.com"`
+
+`export EMAIL_PASSWORD="your-app-password"`
+
+
+**Reload the shell:**
+
+`source ~/.bashrc `    # or source ~/.zshrc
+
+
+**Run the script:**
+
+`python send_email.py`
+
+
+✅ Local environment variables are only for testing. GitHub Actions will still use Secrets for the real daily run.
+---
+---
 
 ## ✅ Benefits
 - No need to keep your laptop/server running.  
