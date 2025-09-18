@@ -9,13 +9,12 @@ EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 # Recipients
 to_recipients = [
-    "grievance.redressal@pnbhousing.com",
     "nodalofficer@pnbhousing.com",
     "cpc@rbi.org.in",
     "customercare@pnbhousing.com",
     "gro.south@pnbhousing.com",
     "gro.north@pnbhousing.com",
-    "gro.west@pnbhousing.com"
+    "gro.west@pnbhousing.com",
     "executivedirector@pnbhousing.com"
 
 ]
@@ -41,7 +40,7 @@ Therefore, I kindly request you to:
 - Initiate a full refund of the EMI amount(s) deducted towards my Home Loan Account,
 - For the period during which the E-Katha document remains unavailable, preventing registration.
 
-Loan Account No: HOU/BLRS/0924/1308242
+Loan Account No: HOU/BLRS/0924/1308242XX
 
 I trust you will recognize the exceptional nature of this situation caused by government system delays. I request your urgent attention to this matter and the processing of this refund without undue delay.
 
@@ -51,7 +50,7 @@ Thank you for your time, understanding, and cooperation. I look forward to your 
 
 Sincerely,  
 DEEPIKA NARENDRAN  
-9108881162
+
 """
 
 def send_email():
